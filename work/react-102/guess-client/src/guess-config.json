@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "valid": "rgba(67,160,71 ,1)",
+    "error": "rgba(239, 83, 80, 1)"
+  },
+  "hint": {
+    "valid": "Valid Word, You can guess",
+    "error": "Input should equal to 5 characters!",
+    "unknow": "Unknown Word, Please guess another word"
+  },
+  "message": {
+    "win": "Congratulations!",
+    "wrong": "Try Again!"
+  }
+}

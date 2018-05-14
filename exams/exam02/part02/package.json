@@ -1,0 +1,28 @@
+{
+  "name": "guessword",
+  "version": "1.0.0",
+  "description":
+    "* exam02/part02/ holds a create-react-app application (the package.json, src/ directory and other directories are directly inside part02/.  This will require some effort on your part.\r * exam02/part02/package.json\r * exam02/part02/alfred.js\r * exam02/part02/barbara.js\r * exam02/part02/wordlist.js\r * exam02/part02/src/config.json\r * other files directories within exam02/part02/ as needed/desired",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "alfred": "node alfred.js",
+    "barbara": "node barbara.js",
+    "dev":
+      "concurrently \"npm run alfred\" \"npm run barbara\" \"npm run start\""
+  },
+  "author": "Tianyu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exam1part02</title>
+    <link rel="stylesheet" href="./public/index.css">
+  </head>
+  <body>
+
+    <header>
+      Guess Game!
+    </header>
+
+    <div class="guess-container">
+      <div class="input-group">
+
+        <div class="guess-group">
+          <div class="guess-title">
+            <h3>Player</h3>
+          </div>
+          <input type="text" class="guess-input" placeholder="Please guess a word !"
+          id = "guess-player-input"></input>
+          <h5 id="player-guess-message"><h5>
+        </div>
+
+        <div class="guess-group">
+          <div class="guess-title">
+            <h3>Computer</h3>
+          </div>
+          <input type="text" class="guess-input" placeholder="Please guess a word !"
+          id = "guess-computer-input" disabled></input>
+        </div>
+
+      </div>
+      <button type="button" class="guess-button" disabled>Begin</button>
+    </div>
+
+    <div class="history-container">
+      <hr>
+      <h2>History Guesses</h2>
+
+      <div class="history-title">
+        <h3>Player</h3>
+        <h3>Computer</h3>
+      </div>
+
+      <div class="historyList-group">
+        <ul class="history-player">
+        </ul>
+        <ul class="history-computer">
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./public/index.js"></script>
+</html>
